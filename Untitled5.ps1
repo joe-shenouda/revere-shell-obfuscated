@@ -53,6 +53,7 @@ function Decrypt-String($key, $encryptedStringWithIV) {
     $aesManaged.Dispose()
     [System.Text.Encoding]::UTF8.GetString($unencryptedData).Trim([char]0)
 }
+# there is a very long encrypted string following now in the code which is incomplete
 
 $k2 = "fIu6VTN/WTIuDo2rD29Iy0UscJJxgU4JvsSUVKxaZQc="
 
